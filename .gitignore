@@ -1,0 +1,25 @@
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/uploads/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+app/config/parameters.yml
+
+#idea
+.idea
+#node js
+node_modules
+php-cs-fixer
+app/cache/
+app/logs/
+spider/
+vendor/
+web/bundles/
+

@@ -1,0 +1,33 @@
+{
+  "name": "firma/aliyun-sms",
+  "description": "阿里云短信 sdk for composer",
+  "keywords": [
+    "aliyun",
+    "阿里云",
+    "sdk",
+    "sms",
+    "短信"
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Arnale\\AliyunSms\\": "src/",
+      "ALiyun\\Core\\": "core/"
+    }
+  },
+  "homepage": "https://github.com/firma/aliyun-sms",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "firma",
+      "email": "keyed.cn@gmail.com"
+    }
+  ],
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
